@@ -119,6 +119,3 @@ This repo documents my daily progress as I learn Java from scratch, focusing on 
 ## 🌱 Learning Philosophy
 > *Small steps every day lead to big results.*
 
----
-
-⭐ If you find this helpful, feel free to explore, learn, and grow along with me!
