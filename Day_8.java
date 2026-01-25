@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Day_4{
+public class Day_8{
     public static void main(String[] args){
 
         System.out.println("*** Basic Calculator *** \nOperations you can perform : \n1. Addition \n2. Subtraction \n3. Division \n4. Multiplication ");
