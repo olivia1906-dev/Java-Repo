@@ -1,5 +1,5 @@
 public class Day_1 {
-    public static void main(String[] args) {
+    public static void main(String[] args){
         System.out.println("Basic calculator perfroming basic operations like additon, subtraction, multiplication and division."); //using arithmetic operators
         // Using literals (fixed values)
         int num1 = 25;
