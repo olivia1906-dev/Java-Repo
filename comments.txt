@@ -1,0 +1,223 @@
+ DAY 0 – Setup & First Step into Java
+
+### What you did
+
+* Installed **IntelliJ IDEA**
+* Set up **Java environment**
+* Connected **Git with IntelliJ**
+* Created a **GitHub repository**
+* Ran your **first Java program**
+
+### Key concepts learned
+
+* Programming starts **before writing code**
+* Tools are as important as syntax
+* Version control helps track progress
+
+-----------------------------------------------------------------------------------------------------
+
+ DAY 1 – Java Basics & Output
+
+### What you did in code
+
+* Wrote your **first Java class**
+* Used the `main` method
+* Printed strings and numbers
+* Performed **basic arithmetic operations**
+
+### Concepts explained
+
+* `class` → container for code
+* `main()` → starting point of execution
+* `System.out.println()` → prints output
+* Variables → store data (`int`, `String`)
+
+.
+
+
+-----------------------------------------------------------------------------------------------------
+
+ DAY 2 – Operators in Java
+
+### What you did in code
+
+* Used **relational operators**
+* Worked with **bitwise operators**
+* Used **shift operators**
+* Observed output for each operation
+
+### Concepts explained
+
+* Relational operators → comparisons (`==`, `!=`, `>`, `<`)
+* Bitwise operators → work on binary level
+* Shift operators → shift bits left/right
+* Boolean output → `true` / `false`
+
+**********************
+ ==    :    equal to tells if two numbers are equal. 
+ ! =    :    not equal tells if two numbers are not equal.
+ >      :    greater than tells if number 1 is greater than number 2 or not. 
+ <      :    lesser than tells if number 1 is lesser than number 2 or not.
+ >=    :    greater than or equal  to tells if number 1 is greater than or 	equal to number 2.
+ <=    :    lesser than or equal to tells if number 1 is lesser than equal to number 2.
+
+
+ &     :    bitwise and performs logical AND between 2 number's binary form
+ |      :   bitwise or performs logical OR between 2 number's binary form.
+ ^     :    bitwise exclusive or performs logical EX-OR between 2 number's binary form.
+ ~     :   bitwise not performs logical NOT on each bit of a number.
+<<    :    bitwise left shift shifts binary bits of the number by the given number in left direction
+>>    :    bitwise right shift shifts binary bits of the number by the given number in right direction.
+>>>  :    bitwise unsigned right shift is similar to bitwise right shift is just different if the number is negative.
+
+
+-----------------------------------------------------------------------------------------------------
+
+ DAY 3 – Mathematical Formulas Program
+
+### What you did in code
+
+* Implemented real-world formulas:
+
+  * Simple Interest
+  * Circle area & circumference
+  * Rectangle & triangle calculations
+  * Cuboid CSA, TSA, volume
+* Used `Math.PI`
+* Fixed datatype mistakes (`int` → `double`)
+
+### Concepts explained
+
+* Arithmetic expressions
+* Formula implementation in code
+* Importance of correct **data types**
+* Code readability using proper prints
+
+
+
+-----------------------------------------------------------------------------------------------------
+
+DAY 4 – Basic Calculator (User Input)
+
+### What you did in code
+
+* Used `Scanner` for user input
+* Built a calculator using:
+
+  * `if-else`
+  * later **switch-case**
+* Handled invalid inputs
+* Closed `Scanner` properly
+
+### Concepts explained
+
+* `Scanner` class → takes input
+* Conditional logic → decision making
+* Input validation
+* Interactive programs
+
+
+-----------------------------------------------------------------------------------------------------
+
+DAY 5 – Inheritance (OOP Concept)
+
+### What you did in code
+
+* Created parent & child classes
+* Demonstrated:
+
+  * Single-level inheritance
+  * Multi-level inheritance
+  * Hierarchical inheritance
+* Called parent methods from child objects
+
+### Concepts explained
+
+* `extends` keyword
+* Code reusability
+* Method inheritance
+* Object creation
+
+
+-----------------------------------------------------------------------------------------------------
+
+ DAY 6 – Arrays
+
+### What you did in code
+
+* Declared arrays
+* Took array input
+* Printed array elements using loops
+
+### Concepts explained
+
+* Arrays → store multiple values
+* Indexing (starts from 0)
+* Loop + array relationship
+
+
+-----------------------------------------------------------------------------------------------------
+
+DAY 7 – Conditional Statements (Deep Dive)
+
+### What you did in code
+
+* Used:
+
+         1. if / else Statement
+         *  Used when there are ONLY TWO possible outcomes
+         *  If condition is true → if block runs
+         *  Otherwise → else block runs
+
+         2. Multiple if Statements
+         *  Each if is checked SEPARATELY
+         *  More than one condition can be true
+         *  All true conditions will execute
+
+         3. if-else Ladder
+         *  Conditions are checked TOP to BOTTOM
+         *  ONLY ONE block executes
+         *  As soon as a condition is true, remaining checks STOP
+
+         * 4. Dangling else
+         *  Occurs when braces { } are NOT used
+         *  else always matches the NEAREST if
+         *  Can cause confusion → avoid in real projects
+
+         * 5. switch-case
+         *  Used when comparing ONE variable with MANY fixed values
+         *  Cleaner than multiple else-if for fixed choices
+         * 6. Ternary Operator
+         *  Short form of if-else
+         *  Used when logic is SIMPLE
+         *  Syntax: condition ? trueValue : falseValue
+
+### Concepts explained
+
+* Decision flow
+* When to use each type of `if`
+* Cleaner logic using ternary
+* Avoiding logical errors
+
+
+
+-----------------------------------------------------------------------------------------------------
+
+DAY 8 – Code Improvement & Refactoring
+
+### What you did in code
+
+* Rebuilt calculator
+* Replaced long if-else with **switch expressions**
+* Made code cleaner & faster
+* Focused on **code quality**
+
+### Concepts explained
+
+* Refactoring
+* Readability
+* Maintainability
+* Modern Java syntax
+
+
+-----------------------------------------------------------------------------------------------------
