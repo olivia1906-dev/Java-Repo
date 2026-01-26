@@ -221,3 +221,43 @@ DAY 8 – Code Improvement & Refactoring
 
 
 -----------------------------------------------------------------------------------------------------
+
+Day 9 – Loops & Control Flow in Java
+
+ ### For Loop
+
+* Used when the number of iterations is known in advance
+* Combines initialization, condition, and increment/decrement in one line
+* Commonly used for counting, arrays, and fixed-range tasks
+
+### While Loop
+
+* Executes as long as the condition remains true
+* Condition is checked *before* each iteration
+* Useful when the number of iterations is not known beforehand
+
+### Do-While Loop
+
+* Executes the loop body **at least once**, regardless of the condition
+* Condition is checked *after* the loop body executes
+* Helpful when at least one execution is mandatory
+
+### Break Statement
+
+* Immediately terminates the loop
+* Used when a specific condition is met and further execution is unnecessary
+* Improves efficiency and control
+
+### Continue Statement
+
+* Skips the current iteration and moves to the next one
+* Useful when certain conditions should be ignored without stopping the loop
+
+### Nested Loops
+
+* A loop inside another loop
+* Inner loop completes all iterations for each outer loop cycle
+* Commonly used in pattern printing, tables, and multidimensional arrays
+
+-----------------------------------------------------------------------------------------------------
+
