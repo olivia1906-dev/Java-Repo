@@ -107,6 +107,22 @@ This repo documents my daily progress as I learn Java from scratch, focusing on 
 
 ***
 
+###🔹 Day 8 – Improved Calculator using switch-case
+- Rebuilt the Basic Calculator in a cleaner and more efficient way
+- Used modern switch-case expressions for better readability
+- Reduced code complexity and improved performance
+- Learned:
+  - switch expressions with arrow (->) syntax
+  - Input validation before execution
+  - Writing concise and maintainable code
+- Key Concepts Practiced
+- Scanner class for user input
+- Conditional logic and branching
+- Switch expression
+- Clean code structure
+
+*** 
+
 ## 🛠 Tools Used
 - Java (JDK)
 - IntelliJ IDEA
