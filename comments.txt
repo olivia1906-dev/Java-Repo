@@ -261,3 +261,15 @@ Day 9 – Loops & Control Flow in Java
 
 -----------------------------------------------------------------------------------------------------
 
+
+ Day 10 - arrays in Java
+* Working with **one-dimensional arrays** helped me understand how multiple values of the same data type can be stored and accessed efficiently using indexes,  instead of creating multiple variables.
+
+ * Exploring **two-dimensional arrays** introduced the idea of storing data in a row-column (matrix) format, which is extremely useful for representing tables, grids, and structured data. Using **nested loops** made it clear how Java traverses multi-level data structures.
+
+* Modifying array elements also showed how arrays are mutable, allowing dynamic changes after initialization.
+
+
+
+
+
