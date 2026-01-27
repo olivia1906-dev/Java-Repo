@@ -123,6 +123,21 @@ This repo documents my daily progress as I learn Java from scratch, focusing on 
 
 *** 
 
+🔹 Day 9 – Loops in Java
+
+-Learned how to repeat tasks efficiently using loops
+-Explored different types of loops and their use cases:
+  -'for' loop for fixed iterations
+  -'while' loop for condition-based execution
+  -'do-while' loop that executes at least once
+-Understood loop control statements:
+  -'break' to exit a loop immediately
+  -'continue' to skip the current iteration
+-Implemented nested loops for pattern printing
+-Built a strong foundation for automation and iterative logic
+
+***
+
 ## 🛠 Tools Used
 - Java (JDK)
 - IntelliJ IDEA
