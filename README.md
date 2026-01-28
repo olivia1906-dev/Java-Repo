@@ -138,6 +138,29 @@ This repo documents my daily progress as I learn Java from scratch, focusing on 
 
 ***
 
+Day 10 – Arrays in Java
+
+**Concepts Covered**
+
+* One-dimensional arrays (1D)
+* Two-dimensional arrays (2D)
+* Accessing array elements using indexes
+* Modifying array values
+* Using loops to traverse arrays
+
+**Program Features**
+
+1. Takes user input to create a 1D array
+2. Displays all elements using a loop
+3. Modifies the first element of the array
+4. Creates a 2D array using rows and columns
+5. Accepts and displays matrix values using nested loops
+
+**Key Learning**
+Arrays store multiple values of the same type in a single variable. They are foundational for advanced topics like sorting, searching, and data structures.
+
+***
+
 ## 🛠 Tools Used
 - Java (JDK)
 - IntelliJ IDEA
@@ -147,6 +170,4 @@ This repo documents my daily progress as I learn Java from scratch, focusing on 
 
 
 
-## 🌱 Learning Philosophy
-> *Small steps every day lead to big results.*
 
