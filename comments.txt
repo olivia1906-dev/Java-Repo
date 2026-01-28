@@ -279,10 +279,14 @@ Day 11 – sum and average in array
 *Why type casting is needed for accurate average calculation
 *Difference between integer division and decimal division
 
+*Calculating the sum showed how values can be accumulated during traversal, while finding the average highlighted the importance of data types and type casting in Java.
+*This exercise reinforced how even simple programs require clear logic and careful handling of calculations.
+
 Important Insight:
 Average must be stored in double because integer division removes decimal values.
 
 -----------------------------------------------------------------------------------------------------
+
 
 
 
