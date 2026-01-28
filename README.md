@@ -5,7 +5,7 @@ This repo documents my daily progress as I learn Java from scratch, focusing on 
 
 
 
-### 🔹 Day 0 – Environment Setup
+🔹 Day 0 – Environment Setup
 - Installed **Java JDK**
 - Set up **IntelliJ IDEA**
 - Learned how to:
@@ -16,7 +16,7 @@ This repo documents my daily progress as I learn Java from scratch, focusing on 
 
 ***
 
-### 🔹 Day 1 – Java Basics & First Programs
+🔹 Day 1 – Java Basics & First Programs
 - Printed text using `System.out.println()`
 - Printed strings and numerical values
 - Performed **basic arithmetic operations**
@@ -28,7 +28,7 @@ This repo documents my daily progress as I learn Java from scratch, focusing on 
 
 ***
 
-### 🔹 Day 2 – Operators in Java
+🔹 Day 2 – Operators in Java
 - Practiced **Relational Operators**
   - `==`, `!=`, `>`, `<`, `>=`, `<=`
 - Understood **true/false conditions**
@@ -40,7 +40,7 @@ This repo documents my daily progress as I learn Java from scratch, focusing on 
 
 ***
 
-### 🔹 Day 3 – Mathematical Formulas Using Java
+🔹 Day 3 – Mathematical Formulas Using Java
 - Implemented real-life math formulas using Java:
   - Simple Interest
   - Circumference & Area of Circle
@@ -54,7 +54,7 @@ This repo documents my daily progress as I learn Java from scratch, focusing on 
 
 ***
 
-### 🔹 Day 4 – Basic Calculator (Using Conditional Statements)
+🔹 Day 4 – Basic Calculator (Using Conditional Statements)
 - Built a **menu-driven calculator**
 - Used:
   - `Scanner` class for user input
@@ -68,7 +68,7 @@ This repo documents my daily progress as I learn Java from scratch, focusing on 
 
 ***
 
-### 🔹 Day 5 – Inheritance in Java (OOP Concept)
+🔹 Day 5 – Inheritance in Java (OOP Concept)
 - Learned **Inheritance** and its importance in OOP
 - Studied **Legal Inheritance Types**:
   - Single-level inheritance
@@ -82,7 +82,7 @@ This repo documents my daily progress as I learn Java from scratch, focusing on 
 
 ***
 
-### 🔹 Day 6 – Arrays in Java
+🔹 Day 6 – Arrays in Java
 - Created an array
 - Read elements using `Scanner`
 - Printed all elements using a loop
@@ -93,7 +93,7 @@ This repo documents my daily progress as I learn Java from scratch, focusing on 
 
 ***
 
-### 🔹 Day 7 – Conditional Statements in Java
+🔹 Day 7 – Conditional Statements in Java
 - Learned decision-making in Java using:
   - `if / else`
   - Multiple `if` statements
@@ -107,7 +107,7 @@ This repo documents my daily progress as I learn Java from scratch, focusing on 
 
 ***
 
-###🔹 Day 8 – Improved Calculator using switch-case
+🔹 Day 8 – Improved Calculator using switch-case
 - Rebuilt the Basic Calculator in a cleaner and more efficient way
 - Used modern switch-case expressions for better readability
 - Reduced code complexity and improved performance
@@ -138,26 +138,43 @@ This repo documents my daily progress as I learn Java from scratch, focusing on 
 
 ***
 
-Day 10 – Arrays in Java
+🔹 Day 10 – Arrays in Java
 
-**Concepts Covered**
+-Concepts Covered
+  - One-dimensional arrays (1D)
+  - Two-dimensional arrays (2D)
+  - Accessing array elements using indexes
+  - Modifying array values
+  - Using loops to traverse arrays
+-Program Features
+  - Takes user input to create a 1D array
+  - Displays all elements using a loop
+  - Modifies the first element of the array
+  - Creates a 2D array using rows and columns
+  - Accepts and displays matrix values using nested loops
 
-* One-dimensional arrays (1D)
-* Two-dimensional arrays (2D)
-* Accessing array elements using indexes
-* Modifying array values
-* Using loops to traverse arrays
-
-**Program Features**
-
-1. Takes user input to create a 1D array
-2. Displays all elements using a loop
-3. Modifies the first element of the array
-4. Creates a 2D array using rows and columns
-5. Accepts and displays matrix values using nested loops
-
-**Key Learning**
+Key Learning-
 Arrays store multiple values of the same type in a single variable. They are foundational for advanced topics like sorting, searching, and data structures.
+
+***
+
+🔹 Day 11 – Sum and Average of Array Elements
+
+-Concepts Covered
+  -One-dimensional arrays
+  -Loop traversal (for loop)
+  -Accumulator variables
+  -Type casting (int to double)
+
+-Basic arithmetic operations
+  -Program Description
+  -Accepts array size from the user
+  -Takes integer elements as input
+  -Calculates the sum of all elements
+  -Computes and displays the average
+
+Key Learning-
+Arrays combined with loops allow efficient processing of large datasets. Understanding how calculations work with different data types is critical for accurate results.
 
 ***
 
