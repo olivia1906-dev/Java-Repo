@@ -287,7 +287,35 @@ Average must be stored in double because integer division removes decimal values
 
 -----------------------------------------------------------------------------------------------------
 
+🔹 Day 11 – Pattern Printing (Explanation)
 
+### Concept Used:
+ *for loop
+ *Nested loops
+
+### How Loops Work Here:
+ *Outer loop controls the number of rows
+ *Inner loop controls:
+ *Number of stars
+ *Number of spaces
+ *Shape of the pattern
+
+### Pattern Logic Breakdown:
+ *Solid Rectangle
+    *Fixed rows and fixed columns
+ *Left Half Pyramid
+   *Stars increase with each row
+ *Right Aligned Pyramid
+    *Spaces decrease, stars increase
+ *Full Pyramid
+    *Stars follow formula: 2 × row − 1
+ *Inverted Pyramid
+    *Stars decrease row by row
+ *Diamond
+    *Upper pyramid + inverted pyramid
+
+
+-----------------------------------------------------------------------------------------------------
 
 
 
