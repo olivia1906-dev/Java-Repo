@@ -178,6 +178,26 @@ Arrays combined with loops allow efficient processing of large datasets. Underst
 
 ***
 
+🔹 Day 11 – Pattern Printing & Nested Loops in Java
+
+-Core Concepts Covered
+- `for` loops and how they control repetition
+- Nested loops
+  - Outer loop → controls rows
+  - Inner loop → controls columns, spaces, or symbols
+- Understanding how spaces and stars work together
+- Logical breakdown of complex patterns into simple steps
+
+-Patterns Implemented
+- Solid rectangle
+- Left half pyramid
+- Right aligned half pyramid
+- Full pyramid
+- Inverted half pyramid
+- Diamond pattern
+
+***
+
 ## 🛠 Tools Used
 - Java (JDK)
 - IntelliJ IDEA
