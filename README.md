@@ -198,6 +198,17 @@ Arrays combined with loops allow efficient processing of large datasets. Underst
 
 ***
 
+🔹 Day 13 – Sum and Average of Array Elements
+- Learned how to calculate **sum** of elements in an integer array
+- Calculated **average** using total sum and array size
+- Practiced:
+  - Array traversal using loops
+  - Accumulator variables
+  - Type casting for accurate division
+- Strengthened understanding of arrays + loops working together
+
+***
+
 ## 🛠 Tools Used
 - Java (JDK)
 - IntelliJ IDEA
