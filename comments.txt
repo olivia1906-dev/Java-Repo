@@ -339,6 +339,34 @@ Day 13 - Sum and average of all elements
     *Average = sum / number of elements
     *Used type casting to get accurate decimal result
 
+-----------------------------------------------------------------------------------------------------
+
+Day 13 – Max & Min in Array
+
+1. Scanner is used to take user input from the keyboard.
+2. The user first enters the size of the array.
+   This decides how many elements the array can store.
+3. An integer array is declared using:
+   int[] arr = new int[n];
+4. A for loop is used to take input for each array element.
+   The loop runs from index 0 to n-1.
+5. The first element of the array is assigned to both:
+   max and min variables.
+   This avoids incorrect comparisons later.
+6. Another for loop starts from index 1.
+   Each element is compared with:
+   - max → to find the largest value
+   - min → to find the smallest value
+7. If a larger value is found, max is updated.
+   If a smaller value is found, min is updated.
+8. After the loop ends, the final max and min values
+   are printed as output.
+
+-----------------------------------------------------------------------------------------------------
+
+
+
+
 
 
 
