@@ -287,7 +287,7 @@ Average must be stored in double because integer division removes decimal values
 
 -----------------------------------------------------------------------------------------------------
 
-🔹 Day 11 – Pattern Printing (Explanation)
+Day 12 – Pattern Printing (Explanation)
 
 ### Concept Used:
  *for loop
@@ -318,6 +318,26 @@ Average must be stored in double because integer division removes decimal values
 -----------------------------------------------------------------------------------------------------
 
 
+Day 13 - Sum and average of all elements 
+
+ ### Arrays:
+    *Used to store multiple values of the same data type
+    *Accessed using index (arr[i])
+    *Size is fixed once declared
+
+###Loops:
+    *for loop used to:
+    *Take input
+    *Traverse array
+    *Perform calculations repeatedly
+
+### Sum Logic:
+    *Initialized sum = 0
+    *Added each element inside loop
+
+### Average Logic:
+    *Average = sum / number of elements
+    *Used type casting to get accurate decimal result
 
 
 
