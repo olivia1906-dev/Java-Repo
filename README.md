@@ -209,6 +209,27 @@ Arrays combined with loops allow efficient processing of large datasets. Underst
 
 ***
 
+🔹Day 14 – Find Maximum and Minimum in an Array (Java)
+
+- Topic
+  -Arrays and Loop Traversal in Java
+
+- Objective
+  -To write a Java program that finds:
+    - The maximum element in an integer array
+    - The minimum element in an integer array
+
+- Concepts Covered
+  - One-Dimensional Arrays
+  -  for loop traversal
+  - Conditional statements (if)
+  - Comparison logic
+  - User input using Scanner
+
+- Problem Statement
+  -Given an integer array entered by the user, determine the largest and smallest values present in the array.
+
+***
 ## 🛠 Tools Used
 - Java (JDK)
 - IntelliJ IDEA
