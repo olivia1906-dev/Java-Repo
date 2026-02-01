@@ -230,6 +230,37 @@ Arrays combined with loops allow efficient processing of large datasets. Underst
   -Given an integer array entered by the user, determine the largest and smallest values present in the array.
 
 ***
+
+🔹 Day 15 – Student Marks Analysis using Arrays (Java)
+
+-Objective
+To build a Java program that:
+- Accepts marks for multiple subjects
+- Stores them in an array
+- Calculates total and average marks
+- Determines highest and lowest marks
+
+- Concepts Covered
+- Arrays (1D)
+- Loops
+- Conditional statements
+- User input using Scanner
+- Basic mathematical operations
+
+- Program Flow
+1. Ask user for number of subjects
+2. Create an integer array
+3. Take marks input using a loop
+4. Calculate:
+   - Total marks
+   - Average marks
+5. Determine:
+   - Maximum marks
+   - Minimum marks
+6. Display results in a clean format
+
+***
+
 ## 🛠 Tools Used
 - Java (JDK)
 - IntelliJ IDEA
