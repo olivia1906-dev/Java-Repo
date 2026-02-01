@@ -364,6 +364,24 @@ Day 13 – Max & Min in Array
 
 -----------------------------------------------------------------------------------------------------
 
+Day 15: 
+
+### Use of arrays to store multiple values of the same data type
+### Use of loops to:
+ -Take repeated input
+ -Traverse the array
+### Logical comparison to find:
+ -Maximum value
+ -Minimum value
+###Mathematical operations to compute:
+ -Total
+ -Average
+
+### Key concepts used:
+ -Scanner for user input
+ -for loop for iteration
+ -Conditional statements (if)
+ -Type casting for accurate average calculation
 
 
 
