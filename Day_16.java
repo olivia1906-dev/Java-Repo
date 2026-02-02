@@ -5,17 +5,10 @@ public class Day_16 {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("*** Find Second Largest Element in an Array ***");
+        System.out.println("*** Find Second Largest Element ***");
 
         System.out.print("Enter number of elements: ");
         int n = sc.nextInt();
-
-        // Array should have at least 2 elements
-        if (n < 2) {
-            System.out.println("Array must contain at least two elements.");
-            sc.close();
-            return;
-        }
 
         int[] arr = new int[n];
 
@@ -24,26 +17,29 @@ public class Day_16 {
             arr[i] = sc.nextInt();
         }
 
-        int largest = Integer.MIN_VALUE;
-        int secondLargest = Integer.MIN_VALUE;
+        // Assume first two elements
+        int largest, secondLargest;
 
-        // Finding largest and second largest
-        for (int i = 0; i < n; i++) {
+        if (arr[0] > arr[1]) {
+            largest = arr[0];
+            secondLargest = arr[1];
+        } else {
+            largest = arr[1];
+            secondLargest = arr[0];
+        }
+
+        // Start loop from 3rd element
+        for (int i = 2; i < n; i++) {
 
             if (arr[i] > largest) {
                 secondLargest = largest;
                 largest = arr[i];
-            }
-            else if (arr[i] > secondLargest && arr[i] != largest) {
+            } else if (arr[i] > secondLargest) {
                 secondLargest = arr[i];
             }
         }
 
-        if (secondLargest == Integer.MIN_VALUE) {
-            System.out.println("Second largest element does not exist.");
-        } else {
-            System.out.println("Second Largest Element: " + secondLargest);
-        }
+        System.out.println("Second Largest Element = " + secondLargest);
 
         sc.close();
     }
