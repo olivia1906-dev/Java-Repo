@@ -1,51 +1,47 @@
-import java.util.Scanner;
+class Day_24 {
+    public int romanToInt(String s) {
+        int total = 0;
 
-public class Day_24 {
+        for (int i = 0; i < s.length(); i++) {
 
-    // Rate constants
-    private static final double RATE_FIRST_100 = 2.0;
-    private static final double RATE_NEXT_100 = 3.0;
-    private static final double RATE_ABOVE_200 = 5.0;
-    private static final double FIXED_CHARGE = 150.0;
+            int current = 0;
+            char ch = s.charAt(i);
 
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+            // Convert Roman symbol to number
+            if (ch == 'I') current = 1;
+            else if (ch == 'V') current = 5;
+            else if (ch == 'X') current = 10;
+            else if (ch == 'L') current = 50;
+            else if (ch == 'C') current = 100;
+            else if (ch == 'D') current = 500;
+            else if (ch == 'M') current = 1000;
 
-        System.out.print("Enter units consumed: ");
-        int units = sc.nextInt();
+            // Check next character if it exists
+            if (i < s.length() - 1) {
+                int next = 0;
+                char nextCh = s.charAt(i + 1);
 
-        // Input validation
-        if (units < 0) {
-            System.out.println("Units consumed cannot be negative.");
-            sc.close();
-            return;
+                if (nextCh == 'I') next = 1;
+                else if (nextCh == 'V') next = 5;
+                else if (nextCh == 'X') next = 10;
+                else if (nextCh == 'L') next = 50;
+                else if (nextCh == 'C') next = 100;
+                else if (nextCh == 'D') next = 500;
+                else if (nextCh == 'M') next = 1000;
+
+                // If next value is bigger → subtract
+                if (current < next) {
+                    total -= current;
+                } else {
+                    total += current;
+                }
+
+            } else {
+                // Last character → just add
+                total += current;
+            }
         }
 
-        double energyCharge;
-
-        if (units <= 100) {
-            energyCharge = units * RATE_FIRST_100;
-        } 
-        else if (units <= 200) {
-            energyCharge = (100 * RATE_FIRST_100) +
-                           (units - 100) * RATE_NEXT_100;
-        } 
-        else {
-            energyCharge = (100 * RATE_FIRST_100) +
-                           (100 * RATE_NEXT_100) +
-                           (units - 200) * RATE_ABOVE_200;
-        }
-
-        double totalBill = energyCharge + FIXED_CHARGE;
-
-        // Output breakdown
-        System.out.println("\n----- Electricity Bill Breakdown -----");
-        System.out.println("Units Consumed     : " + units);
-        System.out.println("Energy Charge      : ₹" + energyCharge);
-        System.out.println("Fixed Meter Charge : ₹" + FIXED_CHARGE);
-        System.out.println("--------------------------------------");
-        System.out.println("Total Bill Amount  : ₹" + totalBill);
-
-        sc.close();
+        return total;
     }
 }
