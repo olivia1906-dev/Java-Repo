@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ReverseDigitAnalysis {
+public class Day_25{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
