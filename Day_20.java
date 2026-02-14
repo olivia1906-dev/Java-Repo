@@ -38,7 +38,7 @@ class Child extends Parent {
 }
 
 // Main class
-public class Day_19 {  
+public class Day_20 {  
     public static void main(String[] args) {
 
         Child c = new Child("Ishika");
